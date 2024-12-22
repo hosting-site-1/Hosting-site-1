@@ -1,0 +1,201 @@
+html {
+    box-sizing: border-box;
+}
+
+* , *::before , *::after {
+    box-sizing: inherit;
+    margin: 0px;
+}
+
+
+
+
+
+/* Font - Faces - Section */
+
+
+
+
+
+@font-face {
+    font-family: "Poppins";
+    src: url("../Fonts/Poppins/pxiEyp8kv8JHgFVrJJfecg.woff2") format("woff2");
+}
+
+
+
+
+
+/* Body & Container */
+
+
+
+
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+    font-family: "Poppins";
+
+    background-color: #2F5BEA;
+}
+
+
+
+
+
+#container {
+    position: relative;
+
+    width: 400px;
+    height: auto;
+}
+
+
+/* Shapes - Section  */
+
+
+.shapes {
+    position: absolute;
+
+    width: 200px;
+    height: 200px;
+
+    border-radius: 100%;
+
+    z-index: -1;
+}
+
+#shape-1 {
+    background: linear-gradient(#8BC34A , #FDD835);
+
+    top: -80px;
+    left: -90px;
+}
+
+#shape-2 {
+    background: linear-gradient(#8BC34A , #FDD835);
+
+    bottom: -80px;
+    right: -90px;
+}
+
+
+/* Page - Form - Section  */
+
+
+#page-form {
+    color: white;
+    background-color: rgba(255, 255, 255, 0.13);
+
+    padding: 50px 35px 35px 35px;
+
+    border: 1px solid rgba(255, 255, 255, 0.13);
+    border-radius: 20px;
+
+    box-shadow: 0px 0px 40px 5px rgba(0, 0, 0, 0.5);
+
+    backdrop-filter: blur(10px);
+}
+
+
+/* Form - Title - Section */
+
+
+#form-title {
+    text-align: center;
+
+    font-size: 32px;
+}
+
+
+/* Form - Content - Section */
+
+
+#form-content {
+    margin-top: 30px;
+}
+
+#form-username-section {
+    margin-bottom: 26px;
+}
+
+.labels {
+    font-size: 16px;
+}
+
+.inputs {
+    width: 100%;
+    height: 50px;
+    
+    font-family: "Poppins";
+    font-size: 14px;
+
+    color: white;
+    background-color: rgba(255, 255, 255, 0.13);
+
+    margin-top: 8px;
+
+    padding: 0px 10px;
+
+    border-radius: 10px;
+
+    border: none;
+    outline: none;
+}
+
+.inputs::placeholder {
+    color: white;
+}
+
+
+/* Form - Button - Section */
+
+
+#form-button-section {
+    margin-top: 50px;
+}
+
+#form-button {
+    display: block;
+
+    width: 90%;
+
+    font-family: "Poppins";
+    font-weight: bold;
+    font-size: 18px;
+
+    margin-right: auto;
+    margin-left: auto;
+
+    padding: 15px 0px;
+
+    border-radius: 30px;
+
+    border: none;
+    outline: none;
+
+    cursor: pointer;
+
+    transition: all 300ms 200ms;
+}
+
+
+
+
+
+/* Psudo - Class - Section */
+
+
+
+
+
+#form-button:hover {
+    width: 100%;
+
+    background-color: #E0E0E0;
+}
+
